@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import rvLogo from "./img/official-logo.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <section className="navbar">
+        <img src={rvLogo} alt="Recycling Village logo" />
+      </section>
+      <section className="content">
+        <h1 className="title">RV Website is coming soon</h1>
+        <h2 className="sub-title">
+          Anyway, thanks for checking. In the meantime, you can follow our
+          Instagram.
+        </h2>
+        <button className="instagram-cta">Follow our Instagram</button>
+      </section>
     </div>
   );
 }
