@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the repository of Recycling Village website.
+Designed using Figma, and created with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
