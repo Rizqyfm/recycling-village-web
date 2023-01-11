@@ -26,12 +26,22 @@ function App() {
           </h2>
         </section>
         <section className="buttons flex justify-center gap-x-12">
-          <button className="button instagram-cta flex items-center gap-x-4 bg-sun font-bold">
+          <a
+            href="https://www.instagram.com/recyclingvillage/"
+            class="button instagram-cta flex items-center gap-x-4 bg-sun font-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-instagram"></i>Follow us
-          </button>
-          <button className="button whatsapp-cta flex items-center gap-x-4 bg-sun font-bold">
+          </a>
+          <a
+            href="https://www.instagram.com/recyclingvillage/"
+            class="button instagram-cta flex items-center gap-x-4 bg-sun font-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-whatsapp"></i>Chat with us
-          </button>
+          </a>
         </section>
       </section>
     </div>
