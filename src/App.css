@@ -51,4 +51,20 @@ a.button {
   .navbar .logoImg {
     width: 250px;
   }
+
+  .words,
+  .buttons {
+    padding: 0 16px;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .sub-title {
+    font-size: 24px;
+  }
+
+  .button {
+    font-size: 18px;
+    padding: 8px 24px;
+  }
 }
