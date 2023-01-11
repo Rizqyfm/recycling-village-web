@@ -35,8 +35,8 @@ function App() {
             <i class="fa-brands fa-instagram"></i>Follow us
           </a>
           <a
-            href="https://www.instagram.com/recyclingvillage/"
-            class="button instagram-cta flex items-center gap-x-4 bg-sun font-bold"
+            href="https://wa.me/6281388454540"
+            class="button whatsapp-cta flex items-center gap-x-4 bg-sun font-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
