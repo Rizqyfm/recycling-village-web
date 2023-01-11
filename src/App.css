@@ -47,7 +47,7 @@ a.button {
 }
 
 /* ===== Phone ===== */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1023px) {
   .navbar .logoImg {
     width: 250px;
   }
@@ -68,3 +68,7 @@ a.button {
     padding: 8px 24px;
   }
 }
+
+/* ===== Tablet ===== */
+/* @media screen and (min-width: 701px) and (max-width: 1023px) {
+} */
