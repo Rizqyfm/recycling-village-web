@@ -1,13 +1,12 @@
-import "./App.css";
-import rvLogo from "./img/official-logo.png";
+import "./styles/App.css";
+// import rvLogo from "./img/official-logo.png";
 import background from "./img/background.png";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="wrapper">
-      <section className="navbar">
-        <img className="logoImg" src={rvLogo} alt="Recycling Village logo" />
-      </section>
+      <Navbar />
       <section
         className="content flex flex-col justify-center gap-y-12"
         style={{
