@@ -2,16 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Desktop */
+/* ===== Desktop ===== */
+/* Navbar */
 .navbar {
-  display: flex;
-  justify-content: center;
-  background-color: black;
   padding: 20px 0;
 }
-.navbar .logoImg {
-  width: 500px;
-  height: auto;
+.navbar-logo {
+  width: auto;
+  height: 65px;
+}
+/* .navbar-links {
+  padding: 10px 32px;
+} */
+.navbar-links:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  color: #f5ea07;
+}
+.navlink .shop-cta {
+  border-radius: 32px;
+  padding: 10px 32px;
+}
+.navlink .shop-cta:hover {
+  color: black;
 }
 
 .content {
