@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav
       id="navbar"
-      className="navbar flex flex-row justify-evenly items-center bg-primary"
+      className="navbar flex flex-row justify-between bg-primary px-20 py-8"
     >
       <img className="navbar-logo" src={navbarLogo} alt="Logo"></img>
 
@@ -30,7 +30,7 @@ function Navbar() {
         </a>
         <a
           href="/"
-          className="navbar-links text-secondary shop-cta bg-sun text-primary"
+          className="navbar-links text-secondary navbar-shop-cta bg-sun text-primary"
         >
           Shop
         </a>

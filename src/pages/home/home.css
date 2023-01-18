@@ -1,4 +1,9 @@
-.hero-cta {
-  border-radius: 32px;
-  padding: 10px 32px;
+/* Home */
+.title {
+  font-family: "Poppins", sans-serif;
+}
+
+.sub-title,
+.button {
+  font-family: "Ibarra Real Nova", serif;
 }

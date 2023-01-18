@@ -2,51 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ===== Desktop ===== */
-/* Navbar */
-.navbar {
-  padding: 20px 0;
-}
-.navbar-logo {
-  width: auto;
-  height: 65px;
-}
-/* .navbar-links {
-  padding: 10px 32px;
-} */
-.navbar-links:hover {
-  transition: 0.2s;
-  cursor: pointer;
-  color: #f5ea07;
-}
-.navlink .shop-cta {
-  border-radius: 32px;
-  padding: 10px 32px;
-}
-.navlink .shop-cta:hover {
-  color: black;
-}
+/* This CSS file only target navbar, footer, and design components */
 
-.content {
-  height: 100vh;
-}
-
-.title {
-  font-family: "Poppins", sans-serif;
-}
-
-.sub-title,
-.button {
+/* Components */
+.shop-button {
   font-family: "Ibarra Real Nova", serif;
+  border-radius: 32px;
+  padding: 10px 32px;
 }
 
-.button {
-  font-size: 22px;
+.link-button {
+  font-family: "Ibarra Real Nova", serif;
+  color: #4472b7;
   padding: 10px 32px;
-  width: auto;
-  height: 52px;
-  border-radius: 32px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14);
 }
 
 a.button {
@@ -55,8 +23,36 @@ a.button {
   appearance: button;
 }
 
-.whatsapp-cta {
+/* ===== Desktop ===== */
+/* Navbar */
+.navbar-logo {
   width: auto;
+  height: 65px;
+}
+.navbar-links:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  color: #f5ea07;
+}
+.navlink .navbar-shop-cta {
+  border-radius: 32px;
+  padding: 10px 32px;
+}
+.navlink .navbar-shop-cta:hover {
+  color: black;
+}
+
+/* Footer */
+.footer {
+  font-family: "Ibarra Real Nova", serif;
+}
+.footer-logo {
+  height: 50px;
+  width: auto;
+}
+.left-footer,
+.right-footer {
+  width: 500px;
 }
 
 /* ===== Phone ===== */
