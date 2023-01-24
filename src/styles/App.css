@@ -5,6 +5,15 @@
 /* This CSS file only target navbar, footer, and design components */
 
 /* Components */
+.title {
+  font-family: "Poppins", sans-serif;
+}
+
+.sub-title,
+.button {
+  font-family: "Ibarra Real Nova", serif;
+}
+
 .shop-button {
   font-family: "Ibarra Real Nova", serif;
   border-radius: 32px;
@@ -41,6 +50,8 @@ a.button {
 .navlink .navbar-shop-cta:hover {
   color: black;
 }
+
+/* Closing */
 
 /* Footer */
 .footer {
