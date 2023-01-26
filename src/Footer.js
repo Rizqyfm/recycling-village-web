@@ -61,7 +61,7 @@ function Footer() {
           </a>
         </section>
         <section className="links flex flex-col items-start">
-          <h5 className="text-headingFour mb-5">Socials</h5>
+          <h5 className="text-headingFour mb-5">Contact us</h5>
           <a
             href="/"
             className="text-bodyTwo mb-5 hover:underline hover:cursor-pointer"

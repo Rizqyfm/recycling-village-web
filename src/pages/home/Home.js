@@ -3,8 +3,8 @@ import background from "../../img/background.png";
 import backgroundPersonDoodles from "../../img/background-person-doodles.png";
 import backgroundPartnership from "../../img/background-partnership.png";
 import productOverview from "../../img/product-overview.png";
-// import backgroundProduct from "../../img/background-product-section.png";
 import doodlesLove from "../../img/doodles-love.png";
+// import backgroundProduct from "../../img/background-product-section.png";
 // import doodlesHijab from "../../img/doodles-hijab.png";
 // import doodlesLongHair from "../../img/doodles-longhair.png";
 
