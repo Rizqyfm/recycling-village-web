@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./img/official-logo.png";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
@@ -17,8 +18,8 @@ function Footer() {
           Shop our product
         </a>
       </section>
-      <section className="right-footer text-secondary flex flex-row justify-center items-start gap-x-12">
-        <section className="links flex flex-col items-start">
+      <section className="right-footer text-secondary flex flex-row justify-center self-center gap-x-12">
+        {/* <section className="links flex flex-col items-start">
           <h5 className="text-headingFour font-ibarra mb-5">Links</h5>
           <a
             href="/"
@@ -59,19 +60,25 @@ function Footer() {
           >
             Newsletter
           </a>
-        </section>
-        <section className="links flex flex-col items-start">
-          <h5 className="text-headingFour mb-5">Contact us</h5>
+        </section> */}
+        <section className="links flex flex-row gap-x-12">
+          {/* <h5 className="text-headingFour mb-5">Contact us</h5> */}
           <a
-            href="/"
-            className="text-bodyTwo mb-5 hover:underline hover:cursor-pointer"
+            href="https://www.instagram.com/recyclingvillage/"
+            className="text-bodyOne mb-5 hover:underline hover:cursor-pointer cta-footer"
+            target="_blank"
+            rel="noopener noreferrer"
           >
+            <i class="fa-brands fa-instagram mr-4"></i>
             Instagram
           </a>
           <a
-            href="/"
-            className="text-bodyTwo mb-5 hover:underline hover:cursor-pointer"
+            href="https://wa.me/6281388454540"
+            className="text-bodyOne mb-5 hover:underline hover:cursor-pointer cta-footer"
+            target="_blank"
+            rel="noopener noreferrer"
           >
+            <i class="fa-brands fa-whatsapp mr-4"></i>
             WhatsApp
           </a>
         </section>

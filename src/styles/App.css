@@ -69,26 +69,78 @@ a.button {
   width: 500px;
 }
 
-/* ===== Phone ===== */
-@media screen and (max-width: 1023px) {
-  .navbar .logoImg {
-    width: 250px;
-  }
+/* ===== Tab ===== */
 
+/* ===== Phone ===== */
+@media screen and (max-width: 500px) {
+  /* Components */
+  .shop-button,
+  .link-button {
+    padding: 8px 20px;
+  }
   .words,
   .buttons {
     padding: 0 16px;
   }
   .title {
-    font-size: 36px;
+    font-size: 28px;
   }
   .sub-title {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .button {
+    font-size: 14px;
+    padding: 8px 24px;
   }
 
-  .button {
-    font-size: 18px;
-    padding: 8px 24px;
+  /* Navbar */
+  .navbar {
+    padding: 30px;
+  }
+  .navbar-logo {
+    width: 80px;
+    height: auto;
+  }
+  .navlink .navbar-shop-cta {
+    padding: 5px 20px;
+  }
+
+  /* Closing */
+  .closing {
+    padding: 20px 30px;
+  }
+  .closing p {
+    font-size: 15px;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    padding: 30px;
+    gap: 40px;
+  }
+  .footer-logo {
+    height: 30px;
+  }
+  .left-footer,
+  .right-footer {
+    width: auto;
+  }
+  .left-footer {
+    gap: 28px;
+  }
+  .right-footer {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .links {
+    gap: 24px;
+  }
+  .cta-footer {
+    font-size: 16px;
+  }
+  .fa-brands {
+    margin-right: 5px;
   }
 }
 

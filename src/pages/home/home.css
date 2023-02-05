@@ -1,4 +1,4 @@
-/* Desktop */
+/* ===== Desktop ===== */
 /* First section */
 
 /* Second section */
@@ -31,4 +31,45 @@
 /* Fourth section */
 .fourth-wrapper {
   height: 80vh;
+}
+
+/* ===== Phone ===== */
+@media screen and (max-width: 500px) {
+  /* First section */
+  .hero-wrapper {
+    padding: 20px 30px;
+  }
+  /* Second section */
+  .second-wrapper {
+    flex-direction: column-reverse;
+    height: auto;
+    padding-right: 0;
+  }
+  .product-overview {
+    height: auto;
+  }
+  .second-right {
+    margin-left: 20px;
+    gap: 28px;
+    padding: 28px 0;
+  }
+  /* Third section */
+  .third-wrapper {
+    height: auto;
+    padding: 30px;
+  }
+  .about-elements {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+  }
+  .about-box {
+    height: auto;
+  }
+  /* Fourth section */
+  .fourth-wrapper {
+    height: auto;
+    padding: 30px;
+    gap: 28px;
+  }
 }

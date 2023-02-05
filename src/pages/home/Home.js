@@ -1,4 +1,5 @@
 import React from "react";
+import Closing from "../../Closing";
 import background from "../../img/background.png";
 import backgroundPersonDoodles from "../../img/background-person-doodles.png";
 import backgroundPartnership from "../../img/background-partnership.png";
@@ -20,7 +21,7 @@ function Home() {
         }}
       >
         <section className="hero-words flex flex-col gap-y-7">
-          <h1 className="title text-headingOne text-center font-bold font-poppins">
+          <h1 className="title text-headingOne text-center font-bold">
             Creating treasures out of plastic waste, and you can have it.
           </h1>
           <h2 className="sub-title text-headingThree text-center">
@@ -36,38 +37,38 @@ function Home() {
           >
             Shop our product
           </a>
-          <p>or</p>
+          {/* <p>or</p>
           <a
             href="/"
             className="link-button text-bodyTwo hover:-translate-y-1 hover:scale-110 duration-300"
           >
             Read our story
-          </a>
+          </a> */}
         </section>
       </section>
 
       {/* Product section */}
       <section className="second-wrapper h-screen flex flex-row justify-center items-center pr-20">
-        <section className="second-left w-1/2">
+        <section className="second-left">
           <img
             className="product-overview"
             src={productOverview}
             alt="product-overview"
           ></img>
         </section>
-        <section className="second-right w-1/2 flex flex-col gap-y-12 items-start ml-20">
+        <section className="second-right flex flex-col gap-y-12 items-start ml-20">
           <h2 className="title text-headingTwo text-left">
             Handcrafted, <br /> by local woman.
           </h2>
           <h3 className="sub-title text-headingThree text-left">
             Colorful, playful, joyful, and absolutely, high quality.
           </h3>
-          <a
+          {/* <a
             href="/"
             className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
           >
             Browse catalogues
-          </a>
+          </a> */}
           <img className="doodles-love" src={doodlesLove} alt="doodles"></img>
         </section>
       </section>
@@ -109,12 +110,12 @@ function Home() {
             </p>
           </section>
         </section>
-        <a
+        {/* <a
           href="/"
           className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
         >
           Read our story
-        </a>
+        </a> */}
       </section>
 
       {/* Partnership section */}
@@ -136,9 +137,10 @@ function Home() {
           href="/"
           className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
         >
-          Discuss with us
+          Contact via WhatsApp
         </a>
       </section>
+      <Closing />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import navbarLogo from "./img/transparent-logo.png";
-// import { HashLink as Link } from "react-router-hash-link";
+import { HashLink as Link } from "react-router-hash-link";
 import "./styles/index.css";
 import "./styles/App.css";
 
@@ -10,30 +10,64 @@ function Navbar() {
       id="navbar"
       className="navbar flex flex-row justify-between bg-primary px-20 py-8"
     >
-      <img className="navbar-logo" src={navbarLogo} alt="Logo"></img>
+      <Link className="anchorLinkNav text-secondary" to="/" smooth activeStyle>
+        <img className="navbar-logo" src={navbarLogo} alt="Logo"></img>
+      </Link>
 
       <section className="navlink flex flex-row items-center gap-x-24">
-        <a href="/" className="navbar-links text-secondary">
+        {/* <Link
+          className="navbar-links text-secondary"
+          to="/Story"
+          smooth
+          activeStyle
+        >
           Our story
-        </a>
-        <a href="/" className="navbar-links text-secondary">
+        </Link>
+
+        <Link
+          className="navbar-links text-secondary"
+          to="/Story"
+          smooth
+          activeStyle
+        >
           Our product
-        </a>
-        <a href="/" className="navbar-links text-secondary">
+        </Link>
+
+        <Link
+          className="navbar-links text-secondary"
+          to="/Story"
+          smooth
+          activeStyle
+        >
           Locations
-        </a>
-        <a href="/" className="navbar-links text-secondary">
+        </Link>
+
+        <Link
+          className="navbar-links text-secondary"
+          to="/Story"
+          smooth
+          activeStyle
+        >
           Newsletter
-        </a>
-        <a href="/" className="navbar-links text-secondary">
+        </Link>
+
+        <Link
+          className="navbar-links text-secondary"
+          to="/Story"
+          smooth
+          activeStyle
+        >
           Partnership
-        </a>
-        <a
-          href="/"
-          className="navbar-links text-secondary navbar-shop-cta bg-sun text-primary"
+        </Link> */}
+
+        <Link
+          className="navbar-links text-secondary navbar-shop-cta bg-sun text-primary font-bold"
+          to="/Story"
+          smooth
+          activeStyle
         >
           Shop
-        </a>
+        </Link>
       </section>
     </nav>
   );
