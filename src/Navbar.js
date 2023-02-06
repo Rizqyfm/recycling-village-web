@@ -60,14 +60,16 @@ function Navbar() {
           Partnership
         </Link> */}
 
-        <Link
+        <a
           className="navbar-links text-secondary navbar-shop-cta bg-sun text-primary font-bold"
-          to="/Story"
+          href="https://wa.me/6281388454540"
           smooth
           activeStyle
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Shop
-        </Link>
+        </a>
       </section>
     </nav>
   );

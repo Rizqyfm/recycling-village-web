@@ -48,7 +48,7 @@ function Home() {
       </section>
 
       {/* Product section */}
-      <section className="second-wrapper h-screen flex flex-row justify-center items-center pr-20">
+      <section className="second-wrapper flex flex-row justify-center items-center pr-20">
         <section className="second-left">
           <img
             className="product-overview"

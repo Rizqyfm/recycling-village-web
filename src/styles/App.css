@@ -69,18 +69,12 @@ a.button {
   width: 500px;
 }
 
-/* ===== Tab ===== */
-
 /* ===== Phone ===== */
 @media screen and (max-width: 500px) {
   /* Components */
   .shop-button,
   .link-button {
     padding: 8px 20px;
-  }
-  .words,
-  .buttons {
-    padding: 0 16px;
   }
   .title {
     font-size: 28px;
@@ -145,5 +139,48 @@ a.button {
 }
 
 /* ===== Tablet ===== */
-/* @media screen and (min-width: 701px) and (max-width: 1023px) {
-} */
+@media screen and (min-width: 501px) and (max-width: 1025px) {
+  /* Components */
+  .shop-button,
+  .link-button {
+    padding: 16px 32px;
+    font-size: 20px;
+  }
+  .title {
+    font-size: 48px;
+  }
+  .sub-title {
+    font-size: 32px;
+  }
+
+  /* Navbar */
+  .navlink .navbar-shop-cta {
+    padding: 16px 32px;
+    font-size: 20px;
+  }
+
+  /* Closing */
+  .closing {
+    padding: 20px 30px;
+  }
+  .closing p {
+    font-size: 32px;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    padding: 30px 30px;
+    gap: 40px;
+  }
+  .left-footer p {
+    font-size: 20px;
+  }
+  .right-footer {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .fa-brands {
+    margin-right: 10px;
+  }
+}

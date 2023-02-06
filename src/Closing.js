@@ -11,7 +11,7 @@ function Closing() {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="closing bg-sun py-20 px-20 flex flex-row justify-between">
+      <div className="closing bg-hopeful py-20 px-20 flex flex-row justify-between">
         <p className="text-headingTwo text-left italic font-poppins">
           We've recyled more than
         </p>
