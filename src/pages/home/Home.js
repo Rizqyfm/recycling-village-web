@@ -32,8 +32,10 @@ function Home() {
 
         <section className="hero-ctas flex flex-col items-center gap-y-1">
           <a
-            href="/"
+            href="https://wa.me/c/6281388454540"
             className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Shop our product
           </a>
@@ -134,8 +136,10 @@ function Home() {
           vulputate libero et velit interdum, ac aliquet odio mattis.
         </h3>
         <a
-          href="/"
+          href="https://wa.me/6281388454540"
           className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Contact via WhatsApp
         </a>

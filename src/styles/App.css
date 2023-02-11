@@ -128,13 +128,16 @@ a.button {
     justify-content: flex-start;
   }
   .links {
-    gap: 24px;
+    gap: 0px;
   }
-  .cta-footer {
+  .links h5 {
     font-size: 16px;
   }
+  .cta-footer {
+    font-size: 14px;
+  }
   .fa-brands {
-    margin-right: 5px;
+    margin-right: 10px;
   }
 }
 

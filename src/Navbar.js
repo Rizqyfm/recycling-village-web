@@ -62,7 +62,7 @@ function Navbar() {
 
         <a
           className="navbar-links text-secondary navbar-shop-cta bg-sun text-primary font-bold"
-          href="https://wa.me/6281388454540"
+          href="https://wa.me/c/6281388454540"
           smooth
           activeStyle
           target="_blank"
