@@ -1,6 +1,7 @@
 import React from "react";
 import Closing from "../../Closing";
 import background from "../../img/background.png";
+import Banner from "../../Banner";
 import backgroundPersonDoodles from "../../img/background-person-doodles.png";
 import backgroundPartnership from "../../img/background-partnership.png";
 import productOverview from "../../img/product-overview.png";
@@ -48,6 +49,8 @@ function Home() {
           </a> */}
         </section>
       </section>
+
+      <Banner />
 
       {/* Product section */}
       <section className="second-wrapper flex flex-row justify-center items-center pr-20">

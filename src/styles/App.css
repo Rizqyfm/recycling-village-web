@@ -51,6 +51,8 @@ a.button {
   color: black;
 }
 
+/* Banner */
+
 /* Closing */
 .counting-number {
   font-family: "Ibarra Real Nova", serif;
@@ -97,6 +99,14 @@ a.button {
   }
   .navlink .navbar-shop-cta {
     padding: 5px 20px;
+  }
+
+  /* Banner */
+  .moving-banner {
+    display: none;
+  }
+  .banner-text span {
+    font-size: 15px;
   }
 
   /* Closing */
