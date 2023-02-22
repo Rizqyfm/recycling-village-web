@@ -6,6 +6,10 @@
   height: 100%;
   width: auto;
 }
+
+.second-wrapper .second-right .title {
+  color: black;
+}
 .doodles-love {
   position: absolute;
   right: 0;
@@ -21,11 +25,14 @@
   z-index: 1;
 }
 .about-box {
-  height: 250px;
+  height: 150px;
   max-width: 250px;
   font-family: "Ibarra Real Nova", serif;
   padding: 22px;
   border-radius: 25px;
+}
+.third-wrapper .title {
+  color: black;
 }
 
 /* Fourth section */
@@ -38,10 +45,11 @@
   /* First section */
   .hero-wrapper {
     padding: 20px 30px;
+    height: 80vh;
   }
   /* Second section */
   .second-wrapper {
-    flex-direction: column-reverse;
+    flex-direction: column;
     height: auto;
     padding-right: 0;
   }
@@ -49,9 +57,15 @@
     height: auto;
   }
   .second-right {
-    margin-left: 20px;
+    margin-left: 0px;
     gap: 28px;
     padding: 28px 0;
+    align-items: center;
+  }
+  .second-right h2,
+  h3 {
+    width: 100%;
+    text-align: center;
   }
   /* Third section */
   .third-wrapper {
@@ -64,7 +78,8 @@
     gap: 28px;
   }
   .about-box {
-    height: auto;
+    max-height: 150px;
+    min-width: 250px;
   }
   /* Fourth section */
   .fourth-wrapper {

@@ -11,17 +11,19 @@ function Closing() {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="closing bg-hopeful py-20 px-20 flex flex-row justify-between">
-        <p className="text-headingTwo text-left italic font-poppins">
-          We've recyled more than
+      <div className="closing bg-secondary py-10 px-20 flex flex-row justify-between">
+        <p className="text-headingTwoHalf text-left italic font-poppins">
+          We have recyled around
         </p>
 
-        <p className="counting-number text-headingTwo text-left italic font-bold">
-          {counterOn && <CountUp start={0} end={1000} duration={3} delay={0} />}
+        <p className="counting-number text-headingTwoHalf text-left italic font-bold">
+          {counterOn && (
+            <CountUp start={0} end={120000} duration={2} delay={0} />
+          )}
         </p>
 
-        <p className="text-headingTwo text-left italic font-poppins">
-          kg of trash
+        <p className="text-headingTwoHalf text-left italic font-poppins">
+          pieces of plastic bags
         </p>
       </div>
     </ScrollTrigger>

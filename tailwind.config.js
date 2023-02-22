@@ -20,6 +20,7 @@ module.exports = {
     fontSize: {
       headingOne: "72px",
       headingTwo: "56px",
+      headingTwoHalf: "46px",
       headingThree: "32px",
       headingFour: "26px",
       bodyOne: "22px",
