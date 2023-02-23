@@ -112,10 +112,13 @@ a.button {
 
   /* Closing */
   .closing {
+    flex-direction: column;
     padding: 20px 5px;
   }
   .closing p {
-    font-size: 13px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
   }
 
   /* Footer */
@@ -180,10 +183,14 @@ a.button {
 
   /* Closing */
   .closing {
+    flex-direction: column;
     padding: 20px 10px;
   }
   .closing p {
-    font-size: 25px;
+    font-size: 32px;
+
+    text-align: center;
+    padding-bottom: 5px;
   }
 
   /* Footer */
