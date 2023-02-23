@@ -112,10 +112,10 @@ a.button {
 
   /* Closing */
   .closing {
-    padding: 20px 30px;
+    padding: 20px 5px;
   }
   .closing p {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   /* Footer */
@@ -173,12 +173,17 @@ a.button {
     font-size: 20px;
   }
 
+  /* Banner */
+  .moving-banner {
+    display: none;
+  }
+
   /* Closing */
   .closing {
-    padding: 20px 30px;
+    padding: 20px 10px;
   }
   .closing p {
-    font-size: 32px;
+    font-size: 25px;
   }
 
   /* Footer */

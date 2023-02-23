@@ -2,11 +2,11 @@ import React from "react";
 import Closing from "../../Closing";
 import background from "../../img/background.png";
 import Banner from "../../Banner";
-// import backgroundPersonDoodles from "../../img/framee.png";
 import backgroundPartnership from "../../img/frame.png";
+import productCatalogue from "../../img/catalogues.png";
+// import backgroundPersonDoodles from "../../img/framee.png";
 // import productOverview from "../../img/product-overview.png";
 // import doodlesLove from "../../img/doodles-love.png";
-import productCatalogue from "../../img/catalogues.png";
 // import backgroundProduct from "../../img/background-product-section.png";
 // import doodlesHijab from "../../img/doodles-hijab.png";
 // import doodlesLongHair from "../../img/doodles-longhair.png";
@@ -41,57 +41,21 @@ function Home() {
           >
             Read more about us
           </a>
-          {/* <p>or</p>
-          <a
-            href="/"
-            className="link-button text-bodyTwo hover:-translate-y-1 hover:scale-110 duration-300"
-          >
-            Read our story
-          </a> */}
         </section>
       </section>
 
       <Banner />
 
       {/* Product section */}
-      {/* <section className="second-wrapper flex flex-row justify-center items-center pr-20 bg-secondary">
-        <section className="second-left">
-          <img
-            className="product-overview"
-            src={productOverview}
-            alt="product-overview"
-          ></img>
-        </section>
-        <section className="second-right flex flex-col gap-y-12 items-start ml-20">
-          <h2 className="title text-headingTwo text-left">
-            Handcrafted, <br /> by local woman.
-          </h2>
-          <h3 className="sub-title text-headingThree">
-            Colorful, playful, joyful, and absolutely, high quality.
-          </h3>
-          <img className="doodles-love" src={doodlesLove} alt="doodles"></img>
-        </section>
-      </section> */}
-
-      {/* Product 2 */}
-      {/* <section
-        className="product2 h-screen bg-white px-20"
-        style={{
-          backgroundImage: `url(${productCatalogue})`,
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
-        }}
-      ></section> */}
-
       <section className="second-wrapper flex flex-row justify-start items-center bg-secondary">
-        <section className="second-left">
+        <section className="second-left w-3/5">
           <img
             className="product-overview"
             src={productCatalogue}
             alt="product-overview"
           ></img>
         </section>
-        <section className="second-right flex flex-col   items-start justify-center gap-y-12 ml-20 bg-hopeful h-screen pl-10 ">
+        <section className="second-right flex flex-col items-start justify-center gap-y-12 bg-hopeful h-screen w-3/6 pl-10 ">
           <h2 className="title text-headingTwo text-left text-primary">
             Handcrafted, <br /> by local woman.
           </h2>
@@ -134,50 +98,6 @@ function Home() {
           Contact via WhatsApp
         </a>
       </section>
-      {/* About section */}
-      {/* <section
-        className="third-wrapper bg-hopeful h-screen flex flex-col justify-center items-center px-20 gap-y-12"
-        style={{
-          backgroundImage: `url(${backgroundPersonDoodles})`,
-          backgroundSize: "cover",
-        }}
-      >
-        <h2 className="title text-headingTwo text-center">
-          Starting from the bottom now we here~~
-        </h2>
-        <section className="about-elements flex flex-row gap-x-12 ">
-          <section className="about-box bg-white flex flex-col justify-center">
-            <p className="text-headingFour text-center font-bold">Impact</p>
-            <p className="text-bodyTwo text-center">
-              Recycle more than 1000kg of plastics
-            </p>
-          </section>
-          <section className="about-box bg-white flex flex-col justify-center">
-            <p className="text-headingFour text-center font-bold">Community</p>
-            <p className="text-bodyTwo text-center">
-              Empowered 20 woman to work with us
-            </p>
-          </section>
-          <section className="about-box bg-white flex flex-col justify-center">
-            <p className="text-headingFour text-center font-bold">1 problem</p>
-            <p className="text-bodyTwo text-center">
-              Recycle more than 1000kg of plastics
-            </p>
-          </section>
-          <section className="about-box bg-white flex flex-col justify-center">
-            <p className="text-headingFour text-center font-bold">1 problem</p>
-            <p className="text-bodyTwo text-center">
-              Recycle more than 1000kg of plastics
-            </p>
-          </section>
-        </section>
-        <a
-          href="/"
-          className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
-        >
-          Read our story
-        </a>
-      </section> */}
       <Closing />
     </div>
   );
