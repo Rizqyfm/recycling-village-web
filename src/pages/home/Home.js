@@ -24,11 +24,12 @@ function Home() {
       >
         <section className="hero-words flex flex-col gap-y-7">
           <h1 className="title text-headingOne text-center font-semibold">
-            Creating treasures out of plastic waste, and you can have it.
+            Crafting trash into treasure, one stitch at a time
           </h1>
           <h2 className="sub-title text-headingThree text-center text-white">
-            We sell bags, wallets, tote bags, and many moreee. <br /> Which you
-            probably love.
+            Recycling Village is not just a brand, it’s a movement that empowers
+            people to act and make a difference. Join us on our mission to save
+            Mother Earth and All Mothers in rural villages of Indonesia.
           </h2>
         </section>
 
@@ -57,10 +58,11 @@ function Home() {
         </section>
         <section className="second-right flex flex-col items-start justify-center gap-y-12 bg-hopeful h-screen w-3/6 pl-10 ">
           <h2 className="title text-headingTwo text-left text-primary">
-            Handcrafted, <br /> by local woman.
+            Crafted with love, <br />
+            by women in rural villages of Indonesia
           </h2>
           <h3 className="sub-title text-headingThree">
-            Colorful, playful, joyful, and absolutely, high quality.
+            One-of-a-kind , functional, responsible piece of art.
           </h3>
           <a
             href="https://wa.me/c/6281388454540"
@@ -85,10 +87,13 @@ function Home() {
       >
         <h2 className="title text-headingTwo text-center">Partnership</h2>
         <h3 className="sub-title text-headingThree text-center text-white">
-          We have partnered with government, non profit organization (NGO), and
-          private company. <br /> Thinking about collaborating with us? Hit us
-          up!
+          It takes a village to drive change. <br /> Connect with us for
+          partnership and collaboration that puts The Planet & The People first.
         </h3>
+        {/* <h3 className="sub-title text-headingThree text-center text-white">
+          Connect with us for partnership and collaboration that puts The Planet
+          & The People first.
+        </h3> */}
         <a
           href="https://wa.me/6281388454540"
           className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"

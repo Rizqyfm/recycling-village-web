@@ -65,7 +65,7 @@
     /* height: 50vh; */
     margin-left: 0px;
     gap: 28px;
-    padding: 28px 0;
+    padding: 28px 20px;
     align-items: center;
   }
   .second-right h2,
@@ -73,23 +73,10 @@
     width: 100%;
     text-align: center;
   }
-  /* Third section */
-  .third-wrapper {
-    height: auto;
-    padding: 30px;
-  }
-  .about-elements {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 28px;
-  }
-  .about-box {
-    max-height: 150px;
-    min-width: 250px;
-  }
+
   /* Fourth section */
   .fourth-wrapper {
-    height: auto;
+    height: 60vh;
     padding: 30px;
     gap: 28px;
   }

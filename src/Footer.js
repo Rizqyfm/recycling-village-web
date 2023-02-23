@@ -7,8 +7,9 @@ function Footer() {
       <section className="left-footer flex flex-col justify-center items-start gap-y-12">
         <img className="footer-logo" src={logo} alt="Logo"></img>
         <p className="text-secondary text-bodyTwo">
-          Since 2021, RV has been creating products in a different way, mixing
-          social projects, economic justice, and ecological materials.
+          At Recycling Village, we are redefining the relationship between
+          fashion, people, and the earth. Join us on our mission to create a
+          more responsible and beautiful world.
         </p>
         <a
           href="https://wa.me/c/6281388454540"
