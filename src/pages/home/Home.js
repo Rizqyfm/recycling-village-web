@@ -62,7 +62,7 @@ function Home() {
             by women in rural villages of Indonesia
           </h2>
           <h3 className="sub-title text-headingThree">
-            One-of-a-kind , functional, responsible piece of art.
+            One-of-a-kind functional responsible piece of art.
           </h3>
           <a
             href="https://wa.me/c/6281388454540"
