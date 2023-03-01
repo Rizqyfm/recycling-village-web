@@ -41,6 +41,7 @@ function Home() {
             rel="noopener noreferrer"
           >
             Read more about us
+            <i class="fa-solid fa-link ml-3"></i>
           </a>
         </section>
       </section>
