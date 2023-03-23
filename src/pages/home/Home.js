@@ -4,6 +4,8 @@ import background from "../../img/background.png";
 import Banner from "../../Banner";
 import backgroundPartnership from "../../img/frame.png";
 import productCatalogue from "../../img/catalogues.png";
+// import { HashLink as Link } from "react-router-hash-link";
+
 // import backgroundPersonDoodles from "../../img/framee.png";
 // import productOverview from "../../img/product-overview.png";
 // import doodlesLove from "../../img/doodles-love.png";
@@ -22,7 +24,16 @@ function Home() {
           backgroundSize: "cover",
         }}
       >
-        <section className="hero-words flex flex-col gap-y-7">
+        <section className="hero-words flex flex-col gap-y-7 items-center">
+          {/* <a
+            href="/"
+            className="shop-button text-bodyThree border-[1px] border-sun  hover:pointer duration-300 text-white text-center items-center shadow-[0px_0px_10px_#F5EA07]"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            RV is partnering with WWF
+            <i class="fa-solid fa-arrow-right ml-3 text-white"></i>
+          </a> */}
           <h1 className="title text-headingOne text-center font-semibold">
             Crafting trash into treasure, one stitch at a time
           </h1>
@@ -89,7 +100,8 @@ function Home() {
         <h2 className="title text-headingTwo text-center">Partnership</h2>
         <h3 className="sub-title text-headingThree text-center text-white">
           It takes a village to drive change. <br /> Connect with us for
-          partnership and collaboration that puts The Planet & The People first.
+          partnership and collaboration that puts <br />
+          The Planet & The People first.
         </h3>
         {/* <h3 className="sub-title text-headingThree text-center text-white">
           Connect with us for partnership and collaboration that puts The Planet

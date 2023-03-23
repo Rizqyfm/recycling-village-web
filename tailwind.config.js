@@ -25,6 +25,7 @@ module.exports = {
       headingFour: "26px",
       bodyOne: "22px",
       bodyTwo: "16px",
+      bodyThree: "14px",
     },
     extend: {},
   },
