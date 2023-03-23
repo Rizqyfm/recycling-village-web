@@ -12,7 +12,7 @@ function Footer() {
           more responsible and beautiful world.
         </p>
         <a
-          href="https://wa.me/c/6281388454540"
+          href="https://tokopedia.link/recyclingvillage"
           className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
           target="_blank"
           rel="noopener noreferrer"

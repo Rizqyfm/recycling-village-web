@@ -62,7 +62,7 @@ function Navbar() {
 
         <a
           className="navbar-links text-secondary navbar-shop-cta bg-sun text-primary font-bold"
-          href="https://wa.me/c/6281388454540"
+          href="https://tokopedia.link/recyclingvillage"
           smooth
           activeStyle
           target="_blank"

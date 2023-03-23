@@ -50,7 +50,7 @@
   /* Second section */
   .second-wrapper {
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
     padding-right: 0;
   }
   .second-left {
@@ -62,8 +62,8 @@
   }
   .second-right {
     width: 100%;
-    /* height: 50vh; */
-    margin-left: 0px;
+    height: 50vh;
+    margin: 50px 0 50px 0;
     gap: 28px;
     padding: 28px 20px;
     align-items: center;

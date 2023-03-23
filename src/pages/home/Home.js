@@ -3,15 +3,7 @@ import Closing from "../../Closing";
 import background from "../../img/background.png";
 import Banner from "../../Banner";
 import backgroundPartnership from "../../img/frame.png";
-import productCatalogue from "../../img/catalogues.png";
-// import { HashLink as Link } from "react-router-hash-link";
-
-// import backgroundPersonDoodles from "../../img/framee.png";
-// import productOverview from "../../img/product-overview.png";
-// import doodlesLove from "../../img/doodles-love.png";
-// import backgroundProduct from "../../img/background-product-section.png";
-// import doodlesHijab from "../../img/doodles-hijab.png";
-// import doodlesLongHair from "../../img/doodles-longhair.png";
+import productCatalogue from "../../img/catalogue.png";
 
 function Home() {
   return (
@@ -60,7 +52,7 @@ function Home() {
       <Banner />
 
       {/* Product section */}
-      <section className="second-wrapper flex flex-row justify-start items-center bg-secondary">
+      <section className="second-wrapper flex flex-row justify-start items-center bg-hopeful">
         <section className="second-left w-3/5">
           <img
             className="product-overview"
@@ -68,7 +60,7 @@ function Home() {
             alt="product-overview"
           ></img>
         </section>
-        <section className="second-right flex flex-col items-start justify-center gap-y-12 bg-hopeful h-screen w-3/6 pl-10 ">
+        <section className="second-right flex flex-col items-start justify-center gap-y-12  w-3/6 pl-10 ">
           <h2 className="title text-headingTwo text-left text-primary">
             Crafted with love, <br />
             by women in rural villages of Indonesia
@@ -77,7 +69,7 @@ function Home() {
             One-of-a-kind functional responsible piece of art.
           </h3>
           <a
-            href="https://wa.me/c/6281388454540"
+            href="https://tokopedia.link/recyclingvillage"
             className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
             target="_blank"
             rel="noopener noreferrer"
