@@ -60,7 +60,7 @@ function Home() {
             alt="product-overview"
           ></img>
         </section>
-        <section className="second-right flex flex-col items-start justify-center gap-y-12  w-3/6 pl-10 ">
+        <section className="second-right flex flex-col items-start justify-center gap-y-12 w-3/6 pl-10">
           <h2 className="title text-headingTwo text-left text-primary">
             Crafted with love, <br />
             by women in rural villages of Indonesia

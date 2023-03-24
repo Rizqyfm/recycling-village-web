@@ -50,7 +50,7 @@
   /* Second section */
   .second-wrapper {
     flex-direction: column;
-    height: 80vh;
+    /* height: 80vh; */
     padding-right: 0;
   }
   .second-left {
