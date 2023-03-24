@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./img/official-logo.png";
+// import { HashLink as Link } from "react-router-hash-link";
 
 function Footer() {
   return (
@@ -11,13 +12,23 @@ function Footer() {
           fashion, people, and the earth. Join us on our mission to create a
           more responsible and beautiful world.
         </p>
-        <a
-          href="https://tokopedia.link/recyclingvillage"
+        {/* <Link
           className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+          to="/Shop"
+          smooth
+          activeStyle
+        >
+          <button className=""> Shop our catalogues</button>
+        </Link> */}
+        <a
+          className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+          href="https://tokopedia.link/recyclingvillage"
+          smooth
+          activeStyle
           target="_blank"
           rel="noopener noreferrer"
         >
-          Shop our product
+          Shop our catalogues
         </a>
       </section>
       <section className="right-footer text-secondary flex flex-row justify-center gap-x-14">

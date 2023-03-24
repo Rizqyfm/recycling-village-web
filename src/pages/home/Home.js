@@ -3,7 +3,8 @@ import Closing from "../../Closing";
 import background from "../../img/background.png";
 import Banner from "../../Banner";
 import backgroundPartnership from "../../img/frame.png";
-import productCatalogue from "../../img/catalogue.png";
+import productCatalogue from "../../img/catalogues.png";
+// import { HashLink as Link } from "react-router-hash-link";
 
 function Home() {
   return (
@@ -60,7 +61,7 @@ function Home() {
             alt="product-overview"
           ></img>
         </section>
-        <section className="second-right flex flex-col items-start justify-center gap-y-12 w-3/6 pl-10">
+        <section className="second-right flex flex-col items-start justify-center gap-y-12 w-3/6 px-10 py-20">
           <h2 className="title text-headingTwo text-left text-primary">
             Crafted with love, <br />
             by women in rural villages of Indonesia
@@ -68,9 +69,19 @@ function Home() {
           <h3 className="sub-title text-headingThree">
             One-of-a-kind functional responsible piece of art.
           </h3>
-          <a
-            href="https://tokopedia.link/recyclingvillage"
+          {/* <Link
             className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+            to="/Shop"
+            smooth
+            activeStyle
+          >
+            <button className=""> Shop our catalogues</button>
+          </Link> */}
+          <a
+            className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+            href="https://tokopedia.link/recyclingvillage"
+            smooth
+            activeStyle
             target="_blank"
             rel="noopener noreferrer"
           >

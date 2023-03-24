@@ -16,6 +16,16 @@ function Navbar() {
 
       <section className="navlink flex flex-row items-center gap-x-24">
         {/* <Link
+          className="anchorLinkNav text-secondary"
+          to="/Shop"
+          smooth
+          activeStyle
+        >
+          <button className="navbar-links text-secondary navbar-shop-cta bg-sun text-primary font-bold">
+            Shop
+          </button>
+        </Link> */}
+        {/* <Link
           className="navbar-links text-secondary"
           to="/Story"
           smooth
