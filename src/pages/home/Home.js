@@ -54,14 +54,14 @@ function Home() {
 
       {/* Product section */}
       <section className="second-wrapper flex flex-row justify-start items-center bg-hopeful">
-        <section className="second-left w-3/5">
+        <section className="second-left w-3/5 h-fit">
           <img
             className="product-overview"
             src={productCatalogue}
             alt="product-overview"
           ></img>
         </section>
-        <section className="second-right flex flex-col items-start justify-center gap-y-12 w-3/6 px-10 py-20">
+        <section className="second-right flex flex-col items-start justify-center gap-y-8 w-3/6 px-10">
           <h2 className="title text-headingTwo text-left text-primary">
             Crafted with love, <br />
             by women in rural villages of Indonesia

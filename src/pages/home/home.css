@@ -94,7 +94,7 @@
   /* Second section */
   .second-wrapper {
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     padding-right: 0;
   }
   .second-left {
