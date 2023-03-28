@@ -4,7 +4,7 @@ import background from "../../img/background.png";
 import Banner from "../../Banner";
 import backgroundPartnership from "../../img/frame.png";
 import productCatalogue from "../../img/catalogues.png";
-// import { HashLink as Link } from "react-router-hash-link";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Home() {
   return (
@@ -27,7 +27,7 @@ function Home() {
             RV is partnering with WWF
             <i class="fa-solid fa-arrow-right ml-3 text-white"></i>
           </a> */}
-          <h1 className="title text-headingOne text-center font-semibold">
+          <h1 className="title text-headingOne text-center font-semibold text-white">
             Crafting trash into treasure, one stitch at a time
           </h1>
           <h2 className="sub-title text-headingThree text-center text-white">
@@ -69,14 +69,14 @@ function Home() {
           <h3 className="sub-title text-headingThree">
             One-of-a-kind functional responsible piece of art.
           </h3>
-          {/* <Link
+          <Link
             className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
             to="/Shop"
             smooth
             activeStyle
           >
             <button className=""> Shop our catalogues</button>
-          </Link> */}
+          </Link>
           <a
             className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
             href="https://tokopedia.link/recyclingvillage"
@@ -100,7 +100,9 @@ function Home() {
           // change image opacity using new image
         }}
       >
-        <h2 className="title text-headingTwo text-center">Partnership</h2>
+        <h2 className="title text-headingTwo text-center text-white">
+          Partnership
+        </h2>
         <h3 className="sub-title text-headingThree text-center text-white">
           It takes a village to drive change. <br /> Connect with us for
           partnership and collaboration that puts <br />
