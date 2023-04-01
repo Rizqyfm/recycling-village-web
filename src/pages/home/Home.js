@@ -103,7 +103,7 @@ function Home() {
         <h2 className="title text-headingTwo text-center">Partnership</h2>
         <h3 className="sub-title text-headingThree text-center text-white">
           It takes a village to drive change. <br /> Connect with us for
-          partnership and collaboration that puts <br />
+          partnership and collaboration that put <br />
           The Planet & The People first.
         </h3>
         {/* <h3 className="sub-title text-headingThree text-center text-white">
