@@ -121,7 +121,7 @@ function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Souvenir & Wholesale Catalog{" "}
+            Bulk order catalog
           </a>
         </section>
       </section>
