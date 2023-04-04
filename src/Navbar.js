@@ -8,13 +8,27 @@ function Navbar() {
   return (
     <nav
       id="navbar"
-      className="navbar flex flex-row justify-between bg-primary px-20 py-8"
+      className="navbar flex flex-row justify-between bg-primary px-8 md:px-10 lg:px-14 py-8"
     >
       <Link className="anchorLinkNav text-secondary" to="/" smooth activeStyle>
-        <img className="navbar-logo" src={navbarLogo} alt="Logo"></img>
+        <img
+          className="navbar-logo w-20 md:w-24 lg:w-28"
+          src={navbarLogo}
+          alt="Logo"
+        ></img>
       </Link>
 
       <section className="navlink flex flex-row items-center gap-x-24">
+        <a
+          className="shop-button bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+          href="https://tokopedia.link/recyclingvillage"
+          smooth
+          activeStyle
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Shop
+        </a>
         {/* <Link
           className="anchorLinkNav text-secondary"
           to="/Shop"
@@ -69,17 +83,6 @@ function Navbar() {
         >
           Partnership
         </Link> */}
-
-        <a
-          className="navbar-links text-secondary navbar-shop-cta bg-sun text-primary font-bold"
-          href="https://tokopedia.link/recyclingvillage"
-          smooth
-          activeStyle
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Shop
-        </a>
       </section>
     </nav>
   );

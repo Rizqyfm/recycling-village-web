@@ -43,10 +43,7 @@
 /* ===== Phone ===== */
 @media screen and (max-width: 500px) {
   /* First section */
-  .hero-wrapper {
-    padding: 20px 30px;
-    height: 80vh;
-  }
+
   /* Second section */
   .second-wrapper {
     flex-direction: column;

@@ -11,7 +11,7 @@ function Home() {
     <div className="home-wrapper">
       {/* Hero section */}
       <section
-        className="hero-wrapper h-screen flex flex-col justify-center items-center gap-y-12 bg-white px-20 bg-aire"
+        className="hero-wrapper flex flex-col justify-center items-center gap-y-12 bg-white px-8 py-20 bg-aire"
         style={{
           backgroundImage: `url(${background})`,
           backgroundSize: "cover",
