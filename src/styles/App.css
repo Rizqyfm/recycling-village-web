@@ -50,14 +50,14 @@ a.button {
 .footer {
   font-family: "Ibarra Real Nova", serif;
 }
-.footer-logo {
+/* .footer-logo {
   height: 50px;
   width: auto;
-}
-.left-footer,
+} */
+/* .left-footer,
 .right-footer {
   width: 500px;
-}
+} */
 
 /* ===== Phone ===== */
 @media screen and (max-width: 500px) {
@@ -66,12 +66,12 @@ a.button {
   .link-button {
     padding: 8px 20px;
   }
-  .title {
+  /* .title {
     font-size: 28px;
   }
   .sub-title {
     font-size: 20px;
-  }
+  } */
   .button {
     font-size: 14px;
     padding: 8px 24px;
@@ -106,19 +106,19 @@ a.button {
   }
 
   /* Footer */
-  .footer {
+  /* .footer {
     flex-direction: column;
     padding: 30px;
     gap: 40px;
-  }
-  .footer-logo {
+  } */
+  /* .footer-logo {
     height: 30px;
-  }
-  .left-footer,
+  } */
+  /* .left-footer,
   .right-footer {
     width: auto;
-  }
-  .left-footer {
+  } */
+  /* .left-footer {
     gap: 28px;
   }
   .right-footer {
@@ -136,7 +136,7 @@ a.button {
   }
   .fa-brands {
     margin-right: 10px;
-  }
+  } */
 }
 
 /* ===== Tablet ===== */
@@ -167,7 +167,7 @@ a.button {
   }
 
   /* Footer */
-  .footer {
+  /* .footer {
     flex-direction: column;
     padding: 30px 30px;
     gap: 40px;
@@ -181,5 +181,5 @@ a.button {
   }
   .fa-brands {
     margin-right: 10px;
-  }
+  } */
 }

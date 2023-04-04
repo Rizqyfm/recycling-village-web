@@ -4,10 +4,14 @@ import logo from "./img/official-logo.png";
 
 function Footer() {
   return (
-    <div className="footer flex flex-row justify-between gap-x-12 bg-primary py-20 px-20">
-      <section className="left-footer flex flex-col justify-center items-start gap-y-12">
-        <img className="footer-logo" src={logo} alt="Logo"></img>
-        <p className="text-secondary text-bodyTwo">
+    <div className="footer flex flex-col lg:flex-row gap-y-10 lg:justify-between bg-primary py-8 px-8 md:px-10 lg:px-14 lg:py-12">
+      <section className="left-footer flex flex-col items-start gap-y-8 md:w-2/3 lg:w-full">
+        <img
+          className="footer-logo h-8 md:h-10 lg:h-10"
+          src={logo}
+          alt="Logo"
+        ></img>
+        <p className="text-secondary text-bodyTwo md:text-bodyOne">
           At Recycling Village, we are redefining the relationship between
           fashion, people, and the earth. Join us on our mission to create a
           more responsible and beautiful world.
@@ -31,9 +35,9 @@ function Footer() {
           Shop our catalogues
         </a>
       </section>
-      <section className="right-footer text-secondary flex flex-row justify-center gap-x-14">
+      <section className="right-footer text-secondary flex flex-row justify-between md:w-2/3 md:justify-start md:gap-x-12 lg:justify-center">
         <section className="links flex flex-col items-start">
-          <h5 className="text-headingFour font-ibarra mb-5">Connect with us</h5>
+          <h5 className="text-bodyOne font-ibarra mb-5">Socials</h5>
           <a
             href="https://www.instagram.com/recyclingvillage/"
             className="text-bodyTwo mb-5 hover:underline hover:cursor-pointer cta-footer"
@@ -54,14 +58,14 @@ function Footer() {
           </a>
         </section>
         <section className="links flex flex-col items-start">
-          <h5 className="text-headingFour mb-5">Stockist</h5>
+          <h5 className="text-bodyOne mb-5">Stockist</h5>
           <a
             href="https://sonderlab.co/collections/recycling-village"
             className="text-bodyTwo mb-5 hover:underline hover:cursor-pointer cta-footer"
             target="_blank"
             rel="noopener noreferrer"
           >
-            SONDERLAB
+            Sonderlab
           </a>
           <a
             href="https://housewarming-space.com/id"
