@@ -11,7 +11,7 @@ function Home() {
     <div className="home-wrapper">
       {/* Hero section */}
       <section
-        className="hero-wrapper flex flex-col justify-center items-center gap-y-12 bg-white px-8 py-20 bg-aire"
+        className="hero-wrapper flex flex-col justify-center items-center gap-y-12 bg-white px-8 md:px-10 lg:px-14 h-screen bg-aire"
         style={{
           backgroundImage: `url(${background})`,
           backgroundSize: "cover",
@@ -27,20 +27,22 @@ function Home() {
             RV is partnering with WWF
             <i class="fa-solid fa-arrow-right ml-3 text-white"></i>
           </a> */}
-          <h1 className="title text-headingOne text-center font-semibold">
-            Crafting trash into treasure, one stitch at a time
+          <h1 className="title text-bodyOne lg:text-headingOne text-center font-semibold">
+            Crafting trash into treasure, <br />
+            one stitch at a time
           </h1>
-          <h2 className="sub-title text-headingThree text-center text-white">
+          <h2 className="sub-title text-bodyThree md:text-bodyOne lg:text-bodyOne text-center text-white">
             Recycling Village is not just a brand, it’s a movement that empowers
-            people to act and make a difference. Join us on our mission to save
-            Mother Earth and All Mothers in rural villages of Indonesia.
+            people to act and make a difference. <br />
+            Join us on our mission to save Mother Earth and All Mothers in rural
+            villages of Indonesia.
           </h2>
         </section>
 
         <section className="hero-ctas flex flex-col items-center gap-y-1">
           <a
             href="https://drive.google.com/file/d/1pHfBIIOlWzr_JWL2utTmHfsrergriw7n/view?usp=share_link"
-            className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+            className="shop-button text-bodyThree md:text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
             target="_blank"
             rel="noopener noreferrer"
           >

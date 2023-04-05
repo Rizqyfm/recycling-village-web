@@ -42,8 +42,6 @@
 
 /* ===== Phone ===== */
 @media screen and (max-width: 500px) {
-  /* First section */
-
   /* Second section */
   .second-wrapper {
     flex-direction: column;
@@ -85,9 +83,7 @@
     overflow-x: hidden;
   }
   /* First section */
-  .hero-wrapper {
-    padding: 30px;
-  }
+
   /* Second section */
   .second-wrapper {
     flex-direction: column;
