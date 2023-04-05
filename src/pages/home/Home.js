@@ -55,32 +55,24 @@ function Home() {
       <Banner />
 
       {/* Product section */}
-      <section className="second-wrapper flex flex-row justify-start items-center bg-hopeful">
-        <section className="second-left w-3/5 h-fit">
+      <section className="second-wrapper flex flex-col lg:flex-row justify-start items-center bg-hopeful">
+        <section className="second-left w-3/5">
           <img
             className="product-overview"
             src={productCatalogue}
             alt="product-overview"
           ></img>
         </section>
-        <section className="second-right flex flex-col items-start justify-center gap-y-8 w-3/6 px-10">
-          <h2 className="title text-headingTwo text-left text-primary">
+        <section className="second-right flex flex-col items-center md:items-start justify-center gap-y-8 px-8 py-8 md:px-10 lg:px-14">
+          <h2 className="title text-bodyOne text-primary lg:text-headingThree">
             Crafted with love, <br />
             by women in rural villages of Indonesia
           </h2>
-          <h3 className="sub-title text-headingThree">
+          <h3 className="sub-title text-bodyTwo lg:text-bodyOne">
             One-of-a-kind functional responsible piece of art.
           </h3>
-          {/* <Link
-            className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
-            to="/Shop"
-            smooth
-            activeStyle
-          >
-            <button className=""> Shop our catalogues</button>
-          </Link> */}
           <a
-            className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+            className="shop-button text-bodyThree md:text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
             href="https://tokopedia.link/recyclingvillage"
             smooth
             activeStyle
@@ -89,12 +81,20 @@ function Home() {
           >
             Shop our catalogues
           </a>
+          {/* <Link
+            className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+            to="/Shop"
+            smooth
+            activeStyle
+          >
+            <button className=""> Shop our catalogues</button>
+          </Link> */}
         </section>
       </section>
 
       {/* Partnership section */}
       <section
-        className="fourth-wrapper flex flex-col justify-center items-center px-20 gap-y-12 bg-aire"
+        className="fourth-wrapper flex flex-col justify-center items-center px-8 md:px-10 lg:px-14 gap-y-12 bg-aire"
         style={{
           backgroundImage: `url(${backgroundPartnership})`,
           backgroundSize: "cover",
@@ -102,8 +102,8 @@ function Home() {
           // change image opacity using new image
         }}
       >
-        <h2 className="title text-headingTwo text-center">Partnership</h2>
-        <h3 className="sub-title text-headingThree text-center text-white">
+        <h2 className="title text-bodyOne text-center">Partnership</h2>
+        <h3 className="sub-title text-bodyTwo text-center text-white">
           It takes a village to drive change. <br /> Connect with us for
           partnership and collaboration that put <br />
           The Planet & The People first.
