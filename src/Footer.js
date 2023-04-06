@@ -56,6 +56,14 @@ function Footer() {
         <section className="links flex flex-col items-start">
           <h5 className="text-headingFour mb-5">Stockist</h5>
           <a
+            href="https://sonderlab.co/collections/recycling-village"
+            className="text-bodyTwo mb-5 hover:underline hover:cursor-pointer cta-footer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sonderlab
+          </a>
+          <a
             href="https://housewarming-space.com/id"
             className="text-bodyTwo mb-5 hover:underline hover:cursor-pointer cta-footer"
             target="_blank"

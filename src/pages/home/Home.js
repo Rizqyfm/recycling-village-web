@@ -4,7 +4,7 @@ import background from "../../img/background.png";
 import Banner from "../../Banner";
 import backgroundPartnership from "../../img/frame.png";
 import productCatalogue from "../../img/catalogues.png";
-import { HashLink as Link } from "react-router-hash-link";
+// import { HashLink as Link } from "react-router-hash-link";
 
 function Home() {
   return (
@@ -69,14 +69,14 @@ function Home() {
           <h3 className="sub-title text-headingThree">
             One-of-a-kind functional responsible piece of art.
           </h3>
-          <Link
+          {/* <Link
             className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
             to="/Shop"
             smooth
             activeStyle
           >
             <button className=""> Shop our catalogues</button>
-          </Link>
+          </Link> */}
           <a
             className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
             href="https://tokopedia.link/recyclingvillage"
@@ -112,14 +112,24 @@ function Home() {
           Connect with us for partnership and collaboration that puts The Planet
           & The People first.
         </h3> */}
-        <a
-          href="https://wa.me/6281388454540"
-          className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contact via WhatsApp
-        </a>
+        <section className="partnership-button flex flex-wrap items-center justify-center gap-x-4 gap-y-4">
+          <a
+            href="https://wa.me/6281388454540"
+            className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contact via WhatsApp
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1FNXg438begrIiTt70m-vKcQCo1f3ZcrP/view?usp=drivesdk"
+            className="shop-button border border-sun text-white text-bodyTwo md:text-bodyTwo font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bulk order catalog
+          </a>
+        </section>
       </section>
       <Closing />
     </div>
