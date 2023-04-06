@@ -68,7 +68,7 @@ function Home() {
             Crafted with love, <br />
             by women in rural villages of Indonesia
           </h2>
-          <h3 className="sub-title text-bodyTwo lg:text-bodyOne">
+          <h3 className="sub-title text-bodyTwo text-center md:text-left lg:text-left lg:text-bodyOne">
             One-of-a-kind functional responsible piece of art.
           </h3>
           <a

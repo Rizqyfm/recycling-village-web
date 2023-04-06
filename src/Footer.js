@@ -25,7 +25,7 @@ function Footer() {
           <button className=""> Shop our catalogues</button>
         </Link> */}
         <a
-          className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+          className="shop-button text-bodyThree md:text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
           href="https://tokopedia.link/recyclingvillage"
           smooth
           activeStyle
