@@ -94,7 +94,7 @@ function Home() {
 
       {/* Partnership section */}
       <section
-        className="fourth-wrapper flex flex-col justify-center items-center px-8 md:px-10 lg:px-14 gap-y-12 bg-aire"
+        className="fourth-wrapper flex flex-col justify-center items-center px-6 md:px-10 lg:px-14 gap-y-8 py-8 lg:py-20 bg-aire"
         style={{
           backgroundImage: `url(${backgroundPartnership})`,
           backgroundSize: "cover",
@@ -102,16 +102,17 @@ function Home() {
           // change image opacity using new image
         }}
       >
-        <h2 className="title text-bodyOne text-center">Partnership</h2>
-        <h3 className="sub-title text-bodyTwo text-center text-white">
+        <h2 className="title text-bodyOne lg:text-headingThree text-center">
+          Partnership
+        </h2>
+        <h3 className="sub-title text-bodyTwo lg:text-bodyOne text-center text-white">
           It takes a village to drive change. <br /> Connect with us for
-          partnership and collaboration that put <br />
-          The Planet & The People first.
+          partnership and collaboration that put The Planet & The People first.
         </h3>
-        <section className="partnership-button flex flex-wrap items-center justify-center gap-y-4 sm:gap-x-4">
+        <section className="partnership-button flex flex-wrap items-center justify-center gap-x-4 gap-y-4">
           <a
             href="https://wa.me/6281388454540"
-            className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+            className="shop-button text-bodyThree md:text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -119,7 +120,7 @@ function Home() {
           </a>
           <a
             href="https://drive.google.com/file/d/1FNXg438begrIiTt70m-vKcQCo1f3ZcrP/view?usp=drivesdk"
-            className="shop-button border border-sun text-white text-bodyTwo font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+            className="shop-button border border-sun text-white text-bodyThree md:text-bodyTwo font-bold hover:-translate-y-1 hover:scale-110 duration-300"
             target="_blank"
             rel="noopener noreferrer"
           >

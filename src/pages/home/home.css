@@ -35,9 +35,9 @@
 }
 
 /* Fourth section */
-.fourth-wrapper {
+/* .fourth-wrapper {
   height: 80vh;
-}
+} */
 
 /* ===== Phone ===== */
 @media screen and (max-width: 500px) {
