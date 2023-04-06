@@ -56,15 +56,15 @@ function Home() {
 
       {/* Product section */}
       <section className="second-wrapper flex flex-col lg:flex-row justify-start items-center bg-hopeful">
-        <section className="second-left w-3/5">
+        <section className="second-left w-full lg:w-3/5">
           <img
-            className="product-overview"
+            className="product-overview w-full h-auto"
             src={productCatalogue}
             alt="product-overview"
           ></img>
         </section>
         <section className="second-right flex flex-col items-center md:items-start justify-center gap-y-8 px-8 py-8 md:px-10 lg:px-14">
-          <h2 className="title text-bodyOne text-primary lg:text-headingThree">
+          <h2 className="title text-bodyOne text-primary text-center md:text-left lg:text-left lg:text-headingThree">
             Crafted with love, <br />
             by women in rural villages of Indonesia
           </h2>
@@ -94,7 +94,7 @@ function Home() {
 
       {/* Partnership section */}
       <section
-        className="fourth-wrapper flex flex-col justify-center items-center px-6 md:px-10 lg:px-14 gap-y-8 py-8 lg:py-20 bg-aire"
+        className="fourth-wrapper flex flex-col justify-center items-center px-6 md:px-10 lg:px-14 gap-y-8 py-8 md:py-14 lg:py-20 bg-aire"
         style={{
           backgroundImage: `url(${backgroundPartnership})`,
           backgroundSize: "cover",
