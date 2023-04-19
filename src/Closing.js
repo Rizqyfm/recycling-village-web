@@ -11,18 +11,29 @@ function Closing() {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="closing bg-secondary flex flex-col gap-y-2 p-6 justify-between items-start md:flex-row md:items-center md:py-10 md:justify-center md:gap-x-10">
-        <p className="text-headingFour italic font-poppins md:text-bodyOne lg:text-headingTwoHalf">
-          We have recyled around
+      <div className="closing bg-secondary p-6 md:flex-row md:items-center md:py-10 md:justify-center md:gap-x-10">
+        <p className="text-bodyOne italic font-poppins text-center md:text-bodyOne lg:text-headingTwoHalf">
+          We have recyled around <br />
+          {counterOn && (
+            <CountUp
+              className="font-bold"
+              start={1}
+              end={120000}
+              duration={2}
+              delay={0}
+            />
+          )}{" "}
+          <br />
+          pieces of plastic bags
         </p>
-        <p className="counting-number text-headingThree italic font-bold md:text-headingFour lg:text-headingTwoHalf">
+        {/* <p className="counting-number text-bodyTwo italic font-bold md:text-headingFour lg:text-headingTwoHalf">
           {counterOn && (
             <CountUp start={1} end={120000} duration={2} delay={0} />
           )}
         </p>
-        <p className="text-headingFour italic font-poppins md:text-bodyOne lg:text-headingTwoHalf">
+        <p className="text-bodyTwo italic font-poppins md:text-bodyOne lg:text-headingTwoHalf">
           pieces of plastic bags
-        </p>
+        </p> */}
       </div>
     </ScrollTrigger>
   );

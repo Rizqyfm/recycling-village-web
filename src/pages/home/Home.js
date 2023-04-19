@@ -71,10 +71,9 @@ function Home() {
             alt="product-overview"
           ></img>
         </section>
-        <section className="second-right flex flex-col items-start md:items-start justify-center gap-y-6 px-6 py-20 md:px-10 lg:px-14 lg:gap-y-10">
-          <h2 className="title text-headingThree text-primary text-left lg:text-headingTwoHalf">
-            Crafted with love, <br />
-            by women in rural villages of Indonesia
+        <section className="second-right flex flex-col items-start md:items-start justify-center gap-y-6 px-6 py-10 md:px-10 lg:px-14 lg:gap-y-10">
+          <h2 className="title text-headingTwoHalf text-primary text-left lg:text-headingTwoHalf">
+            Crafted with love, by women in rural villages of Indonesia
           </h2>
           <h3 className="sub-title text-bodyOne text-left lg:text-headingFour">
             One-of-a-kind functional responsible piece of art.
@@ -102,14 +101,14 @@ function Home() {
 
       {/* Partnership section */}
       <section
-        className="fourth-wrapper flex flex-col justify-center items-start px-6 gap-y-6 py-20 md:px-10 md:py-20 lg:items-center lg:px-14 lg:py-32 lg:gap-y-10 bg-aire"
+        className="fourth-wrapper flex flex-col justify-center items-start px-6 gap-y-6 py-32 md:px-10 md:py-20 lg:items-center lg:px-14 lg:py-32 lg:gap-y-10 bg-aire"
         style={{
           backgroundImage: `url(${backgroundPartnership})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h2 className="title text-headingThree lg:text-headingTwo">
+        <h2 className="title text-headingTwoHalf lg:text-headingTwo">
           Partnership
         </h2>
         <h3 className="sub-title text-bodyOne text-white lg:text-headingThree lg:text-center">
