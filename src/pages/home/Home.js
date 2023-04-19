@@ -34,7 +34,7 @@ function Home() {
             Crafting trash into treasure,
             <br /> one stitch at a time
           </h1>
-          <h2 className="sub-title text-left text-white text-bodyOne md:text-bodyOne lg:text-headingFour lg:text-center lg:w-1/2">
+          <h2 className="sub-title text-left text-white text-bodyOne md:text-bodyOne lg:text-headingFour lg:text-center lg:w-4/6">
             Recycling Village is not just a brand, it’s a movement that empowers
             people to act and make a difference. Join us on our mission to save
             Mother Earth and All Mothers in rural villages of Indonesia.
