@@ -72,7 +72,7 @@ a.button {
   }
 
   /* Closing */
-  .closing {
+  /* .closing {
     flex-direction: column;
     padding: 20px 5px;
   }
@@ -80,7 +80,7 @@ a.button {
     font-size: 20px;
     text-align: center;
     padding-bottom: 5px;
-  }
+  } */
 }
 
 /* ===== Tablet ===== */
@@ -99,14 +99,13 @@ a.button {
   }
 
   /* Closing */
-  .closing {
+  /* .closing {
     flex-direction: column;
     padding: 20px 10px;
   }
   .closing p {
     font-size: 32px;
-
     text-align: center;
     padding-bottom: 5px;
-  }
+  } */
 }
