@@ -4,7 +4,7 @@ import background from "../../img/background.png";
 import Banner from "../../Banner";
 import backgroundPartnership from "../../img/frame.png";
 import productCatalogue from "../../img/catalogues.png";
-import { HashLink as Link } from "react-router-hash-link";
+// import { HashLink as Link } from "react-router-hash-link";
 
 function Home() {
   return (
@@ -34,16 +34,10 @@ function Home() {
             Crafting trash into treasure,
             <br /> one stitch at a time
           </h1>
-          <h2 className="sub-title text-left text-white text-bodyOne md:text-bodyOne lg:text-headingFour lg:hidden ">
+          <h2 className="sub-title text-left text-white text-bodyOne md:text-bodyOne lg:text-headingFour lg:text-center lg:w-1/2">
             Recycling Village is not just a brand, it’s a movement that empowers
             people to act and make a difference. Join us on our mission to save
             Mother Earth and All Mothers in rural villages of Indonesia.
-          </h2>
-          <h2 className="sub-title sub-title-destkop hidden lg:block text-bodyTwo md:text-bodyOne lg:text-headingFour text-center text-white">
-            Recycling Village is not just a brand, it’s a movement that empowers
-            people to act and make a difference. <br />
-            Join us on our mission to save Mother Earth and All Mothers in rural
-            villages of Indonesia.
           </h2>
         </section>
 
@@ -63,15 +57,15 @@ function Home() {
       <Banner />
 
       {/* Product section */}
-      <section className="second-wrapper flex flex-col lg:flex-row justify-start items-center bg-hopeful">
-        <section className="second-left w-full lg:w-3/5">
+      <section className="second-wrapper flex flex-col justify-start items-center bg-hopeful lg:flex-row ">
+        <section className="second-left w-full">
           <img
-            className="product-overview"
+            className="product-overview max-h-full lg:max-h-full"
             src={productCatalogue}
             alt="product-overview"
           ></img>
         </section>
-        <section className="second-right flex flex-col items-start md:items-start justify-center gap-y-6 px-6 py-10 md:px-10 lg:px-14 lg:gap-y-10">
+        <section className="second-right flex flex-col items-start md:items-start justify-center gap-y-6 px-6 py-16 md:px-10 lg:px-14 lg:gap-y-10">
           <h2 className="title text-headingTwoHalf text-primary text-left lg:text-headingTwoHalf">
             Crafted with love, by women in rural villages of Indonesia
           </h2>

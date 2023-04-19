@@ -4,7 +4,7 @@ import productCatalogue from "../../img/catalogues.png";
 
 function Shop() {
   return (
-    <section className="second-wrapper flex flex-row justify-start items-center bg-secondary h-screen">
+    <section className="shop-wrapper flex flex-row justify-start items-center bg-secondary h-screen">
       <section className="second-left w-3/5">
         <img
           className="product-overview"

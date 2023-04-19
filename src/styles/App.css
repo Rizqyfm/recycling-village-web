@@ -70,17 +70,6 @@ a.button {
   .banner-text span {
     font-size: 15px;
   }
-
-  /* Closing */
-  /* .closing {
-    flex-direction: column;
-    padding: 20px 5px;
-  }
-  .closing p {
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 5px;
-  } */
 }
 
 /* ===== Tablet ===== */
@@ -97,15 +86,4 @@ a.button {
   .moving-banner {
     display: none;
   }
-
-  /* Closing */
-  /* .closing {
-    flex-direction: column;
-    padding: 20px 10px;
-  }
-  .closing p {
-    font-size: 32px;
-    text-align: center;
-    padding-bottom: 5px;
-  } */
 }
