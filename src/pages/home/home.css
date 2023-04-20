@@ -2,8 +2,12 @@
 
 /* Second section */
 .product-overview {
-  height: 100%;
-  width: auto;
+  /* height: 750px; */
+  width: 350px;
+  height: auto;
+}
+.second-wrapper .second-wrapper-words .title {
+  color: black;
 }
 .second-wrapper .second-right .title {
   color: black;
@@ -25,7 +29,3 @@
 .third-wrapper .title {
   color: black;
 }
-
-/* ===== Phone ===== */
-
-/* ===== Tablet ===== */

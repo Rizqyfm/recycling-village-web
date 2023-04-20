@@ -24,7 +24,7 @@ function Closing() {
             />
           )}{" "}
           <br />
-          pieces of plastic bags
+          pieces of soft plastic waste
         </p>
       </div>
 
@@ -40,12 +40,24 @@ function Closing() {
               delay={0}
             />
           )}
-          &nbsp; pieces of plastic bags
+          &nbsp; pieces of soft plastic waste
         </p>
       </div>
 
-      <div className="closing-desktop bg-secondary p-6 hidden lg:block">
-        <p className="text-headingThree italic font-poppins text-center">
+      <div className="closing-desktop bg-secondary p-6 hidden lg:flex lg:gap-x-12 lg:justify-center">
+        <p className="italic font-poppins text-center md:text-bodyOne lg:text-headingFour">
+          We have recyled around{" "}
+        </p>
+        <p className="text-bodyOne italic font-poppins font-bold text-center md:text-bodyOne lg:text-headingFour">
+          {counterOn && (
+            <CountUp start={1} end={120000} duration={2} delay={0} />
+          )}
+        </p>
+        <p className="text-bodyTwo italic font-poppins text-center md:text-bodyOne lg:text-headingFour">
+          pieces of soft plastic waste
+        </p>
+      </div>
+      {/* <p className="text-headingThree italic font-poppins text-justify">
           We have recyled around &nbsp;
           {counterOn && (
             <CountUp
@@ -57,19 +69,8 @@ function Closing() {
             />
           )}
           &nbsp; pieces of plastic bags
-        </p>
-        {/* <p className="text-bodyOne italic font-poppins text-center md:text-bodyOne lg:text-headingTwoHalf">
-          We have recyled around{" "}
-        </p>
-        <p className="counting-number text-bodyTwo italic font-bold md:text-headingFour lg:text-headingTwoHalf">
-          {counterOn && (
-            <CountUp start={1} end={120000} duration={2} delay={0} />
-          )}
-        </p>
-        <p className="text-bodyTwo italic font-poppins md:text-bodyOne lg:text-headingTwoHalf">
-          pieces of plastic bags
+
         </p> */}
-      </div>
     </ScrollTrigger>
   );
 }

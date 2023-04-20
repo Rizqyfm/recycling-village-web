@@ -5,7 +5,7 @@ import logo from "./img/official-logo.png";
 function Footer() {
   return (
     <div className="footer flex flex-col lg:flex-row gap-y-10 lg:justify-between bg-primary py-8 px-8 md:px-10 lg:px-14 lg:py-12">
-      <section className="left-footer flex flex-col items-start gap-y-8 md:w-2/3 lg:w-full">
+      <section className="left-footer flex flex-col items-start gap-y-8 md:w-2/3">
         <img
           className="footer-logo h-8 md:h-10 lg:h-10"
           src={logo}
@@ -35,6 +35,7 @@ function Footer() {
           Shop our catalogues
         </a>
       </section>
+
       <section className="right-footer text-secondary flex flex-row justify-between md:w-2/3 md:justify-start md:gap-x-12 lg:justify-center">
         <section className="links flex flex-col items-start">
           <h5 className="text-bodyOne font-ibarra mb-5">Socials</h5>

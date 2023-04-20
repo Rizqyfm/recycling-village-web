@@ -3,7 +3,7 @@ import Closing from "../../Closing";
 import background from "../../img/background.png";
 import Banner from "../../Banner";
 import backgroundPartnership from "../../img/frame.png";
-import productCatalogue from "../../img/catalogues.png";
+import productCatalogue from "../../img/cataloguee.png";
 // import { HashLink as Link } from "react-router-hash-link";
 
 function Home() {
@@ -34,7 +34,7 @@ function Home() {
             Crafting trash into treasure,
             <br /> one stitch at a time
           </h1>
-          <h2 className="sub-title text-left text-white text-bodyOne md:text-bodyOne lg:text-headingFour lg:text-center lg:w-4/6">
+          <h2 className="sub-title text-left text-white text-bodyOne md:text-bodyOne lg:text-headingFour lg:text-center">
             Recycling Village is not just a brand, it’s a movement that empowers
             people to act and make a difference. Join us on our mission to save
             Mother Earth and All Mothers in rural villages of Indonesia.
@@ -57,15 +57,43 @@ function Home() {
       <Banner />
 
       {/* Product section */}
-      <section className="second-wrapper flex flex-col justify-start items-center bg-hopeful lg:flex-row ">
-        <section className="second-left w-full">
+      <section className="second-wrapper bg-hopeful">
+        <section className="second-wrapper-content flex flex-col p-6 lg:flex lg:flex-row lg:justify-evenly lg:py-12 lg:px-14">
           <img
-            className="product-overview max-h-full lg:max-h-full"
+            className="product-overview"
+            src={productCatalogue}
+            alt="product-overview"
+          ></img>
+          <section className="second-wrapper-words flex flex-col items-start gap-y-6 py-6 lg:w-1/2 lg:gap-y-8 lg:justify-center">
+            <h2 className="title text-headingTwoHalf text-primary text-left lg:text-headingTwoHalf">
+              Crafted with love, by women in rural villages of Indonesia
+            </h2>
+            <h3 className="sub-title text-bodyOne text-left lg:text-headingFour">
+              One-of-a-kind functional responsible piece of art.
+            </h3>
+            <a
+              className="shop-button text-bodyThree md:text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+              href="https://tokopedia.link/recyclingvillage"
+              smooth
+              activeStyle
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Shop our catalogues
+            </a>
+          </section>
+        </section>
+      </section>
+
+      {/* <section className="second-wrapper flex flex-col justify-start items-center bg-hopeful lg:flex-row lg:h-1/2">
+        <section className="second-left w-auto lg:w-1/2 lg:h-auto">
+          <img
+            className="product-overview"
             src={productCatalogue}
             alt="product-overview"
           ></img>
         </section>
-        <section className="second-right flex flex-col items-start md:items-start justify-center gap-y-6 px-6 py-16 md:px-10 lg:px-14 lg:gap-y-10">
+        <section className="second-right flex flex-col items-start md:items-start justify-center gap-y-6 px-6 py-16 md:px-10 lg:px-14 lg:py-6 lg:gap-y-8">
           <h2 className="title text-headingTwoHalf text-primary text-left lg:text-headingTwoHalf">
             Crafted with love, by women in rural villages of Indonesia
           </h2>
@@ -82,16 +110,16 @@ function Home() {
           >
             Shop our catalogues
           </a>
-          {/* <Link
+          <Link
             className="shop-button text-bodyTwo bg-sun font-bold hover:-translate-y-1 hover:scale-110 duration-300"
             to="/Shop"
             smooth
             activeStyle
           >
             <button className=""> Shop our catalogues blala</button>
-          </Link> */}
+          </Link>
         </section>
-      </section>
+      </section> */}
 
       {/* Partnership section */}
       <section
